@@ -18,10 +18,10 @@ function toss() {
   tossSound.play();
 
   if (num <= 5) {
-    image.src = "/coins/front.webp";
+    image.src = "/coins/front.png";
     para.innerText = "Tails";
   } else {
-    image.src = "/coins/back.webp";
+    image.src = "/coins/back.png";
     para.innerText = "Heads";
   }
 
