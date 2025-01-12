@@ -2,7 +2,7 @@
 let btn = document.querySelector("button");
 let image = document.querySelector("img");
 let para = document.querySelector("p");
-const tossSound = new Audio("/ts.wav");
+const tossSound = new Audio("./ts.wav");
 // Styling
 btn.style.fontSize = "18px";
 btn.style.padding = "2px";
@@ -18,10 +18,10 @@ function toss() {
   tossSound.play();
 
   if (num <= 5) {
-    image.src = "/coins/front.png";
+    image.src = "./coins/front.png";
     para.innerText = "Tails";
   } else {
-    image.src = "/coins/back.png";
+    image.src = "./coins/back.png";
     para.innerText = "Heads";
   }
 
