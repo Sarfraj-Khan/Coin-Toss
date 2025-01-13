@@ -10,7 +10,6 @@ image.style.width = "200px";
 image.style.height = "200px";
 para.style.fontSize = "2rem";
 para.style.fontWeight = "bold";
-para.style.color = "black";
 
 function toss() {
   let num = Math.floor(Math.random() * 10) + 1;
